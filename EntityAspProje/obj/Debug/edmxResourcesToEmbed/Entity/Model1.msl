@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="BONUSASPDBModelStoreContainer" CdmEntityContainer="BONUSASPDBEntities">
+    <EntitySetMapping Name="TBLKATEGORI">
+      <EntityTypeMapping TypeName="BONUSASPDBModel.TBLKATEGORI">
+        <MappingFragment StoreEntitySet="TBLKATEGORI">
+          <ScalarProperty Name="KATEGORIID" ColumnName="KATEGORIID" />
+          <ScalarProperty Name="KATEGORIAD" ColumnName="KATEGORIAD" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TBLMUSTERI">
+      <EntityTypeMapping TypeName="BONUSASPDBModel.TBLMUSTERI">
+        <MappingFragment StoreEntitySet="TBLMUSTERI">
+          <ScalarProperty Name="MUSTERIID" ColumnName="MUSTERIID" />
+          <ScalarProperty Name="MUSTERIAD" ColumnName="MUSTERIAD" />
+          <ScalarProperty Name="MUSTERISOYAD" ColumnName="MUSTERISOYAD" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TBLPERSONEL">
+      <EntityTypeMapping TypeName="BONUSASPDBModel.TBLPERSONEL">
+        <MappingFragment StoreEntitySet="TBLPERSONEL">
+          <ScalarProperty Name="PERSONELID" ColumnName="PERSONELID" />
+          <ScalarProperty Name="PERSONELADSOYAD" ColumnName="PERSONELADSOYAD" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TBLSATIS">
+      <EntityTypeMapping TypeName="BONUSASPDBModel.TBLSATIS">
+        <MappingFragment StoreEntitySet="TBLSATIS">
+          <ScalarProperty Name="SATISID" ColumnName="SATISID" />
+          <ScalarProperty Name="URUN" ColumnName="URUN" />
+          <ScalarProperty Name="PERSONEL" ColumnName="PERSONEL" />
+          <ScalarProperty Name="MUSTERI" ColumnName="MUSTERI" />
+          <ScalarProperty Name="FIYAT" ColumnName="FIYAT" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TBLURUNLER">
+      <EntityTypeMapping TypeName="BONUSASPDBModel.TBLURUNLER">
+        <MappingFragment StoreEntitySet="TBLURUNLER">
+          <ScalarProperty Name="DURUM" ColumnName="DURUM" />
+          <ScalarProperty Name="URUNID" ColumnName="URUNID" />
+          <ScalarProperty Name="URUNAD" ColumnName="URUNAD" />
+          <ScalarProperty Name="URUNMARKA" ColumnName="URUNMARKA" />
+          <ScalarProperty Name="URUNKATEGORI" ColumnName="URUNKATEGORI" />
+          <ScalarProperty Name="URUNFIYAT" ColumnName="URUNFIYAT" />
+          <ScalarProperty Name="URUNSTOK" ColumnName="URUNSTOK" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TBL_ADMIN">
+      <EntityTypeMapping TypeName="BONUSASPDBModel.TBL_ADMIN">
+        <MappingFragment StoreEntitySet="TBL_ADMIN">
+          <ScalarProperty Name="SİFRE" ColumnName="SİFRE" />
+          <ScalarProperty Name="KULLANICI" ColumnName="KULLANICI" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
